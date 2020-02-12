@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Users/sergey/src/workout.js/site/build/static/css/main.08d5febe.chunk.css",
-    "main.js": "/Users/sergey/src/workout.js/site/build/static/js/main.12731909.chunk.js",
-    "main.js.map": "/Users/sergey/src/workout.js/site/build/static/js/main.12731909.chunk.js.map",
-    "runtime-main.js": "/Users/sergey/src/workout.js/site/build/static/js/runtime-main.7f5393b3.js",
-    "runtime-main.js.map": "/Users/sergey/src/workout.js/site/build/static/js/runtime-main.7f5393b3.js.map",
-    "static/js/2.7e5f1f8d.chunk.js": "/Users/sergey/src/workout.js/site/build/static/js/2.7e5f1f8d.chunk.js",
-    "static/js/2.7e5f1f8d.chunk.js.map": "/Users/sergey/src/workout.js/site/build/static/js/2.7e5f1f8d.chunk.js.map",
-    "index.html": "/Users/sergey/src/workout.js/site/build/index.html",
-    "precache-manifest.42e358e92535e3adeb8c29ee76c8dc25.js": "/Users/sergey/src/workout.js/site/build/precache-manifest.42e358e92535e3adeb8c29ee76c8dc25.js",
-    "service-worker.js": "/Users/sergey/src/workout.js/site/build/service-worker.js",
-    "static/css/main.08d5febe.chunk.css.map": "/Users/sergey/src/workout.js/site/build/static/css/main.08d5febe.chunk.css.map",
-    "static/js/2.7e5f1f8d.chunk.js.LICENSE": "/Users/sergey/src/workout.js/site/build/static/js/2.7e5f1f8d.chunk.js.LICENSE"
+    "main.css": "./static/css/main.08d5febe.chunk.css",
+    "main.js": "./static/js/main.3e50e898.chunk.js",
+    "main.js.map": "./static/js/main.3e50e898.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d7096090.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d7096090.js.map",
+    "static/js/2.7e5f1f8d.chunk.js": "./static/js/2.7e5f1f8d.chunk.js",
+    "static/js/2.7e5f1f8d.chunk.js.map": "./static/js/2.7e5f1f8d.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.842fd5626620af4c15a72b1ea732b56b.js": "./precache-manifest.842fd5626620af4c15a72b1ea732b56b.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.08d5febe.chunk.css.map": "./static/css/main.08d5febe.chunk.css.map",
+    "static/js/2.7e5f1f8d.chunk.js.LICENSE": "./static/js/2.7e5f1f8d.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f5393b3.js",
+    "static/js/runtime-main.d7096090.js",
     "static/js/2.7e5f1f8d.chunk.js",
     "static/css/main.08d5febe.chunk.css",
-    "static/js/main.12731909.chunk.js"
+    "static/js/main.3e50e898.chunk.js"
   ]
 }
