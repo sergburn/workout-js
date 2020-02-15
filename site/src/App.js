@@ -43,10 +43,10 @@ function Schedule(props) {
 
 function TrainingStep(props) {
   return (
-    <tr>
-      <td className="step-action">{props.step.action}</td>
-      <td className="step-value">{props.step.count}</td>
-    </tr>
+    <>
+      <div className="step-action tt-action-cell">{props.step.action}</div>
+      <div className="step-value tt-value-cell">{props.step.count}</div>
+    </>
   );
 }
 
@@ -66,32 +66,28 @@ function TrainingEvent(props) {
 
   return (
     <div className="training-pane">
-      <p className="training-time">{startTime}</p>
-      <p className="training-title">{props.training.template.title}</p>
+      <div className="training-header">
+        <p className="training-time-label">Время начала</p>
+        <p className="training-time">{startTime}</p>
+        <p className="training-title-label">Название</p>
+        <p className="training-title">{props.training.template.title}</p>
+      </div>
 
-      <div>
-        <hr />
-        <h3 className="training-steps">Программа тренировки</h3>
-        {/* <ul className="step-list"> */}
-        <table>
-          <thead>
-            <tr>
-              <td>Движение</td>
-              <td>Повторов</td>
-            </tr>
-          </thead>
-          <tbody>
-            {props.training.template.steps.map((step) => (
-              <TrainingStep step={step} key={step.order} />
-            ))}
-          </tbody>
-        </table>
-        {/* </ul> */}
+      <div className="training-program">
+        <h3 className="training-program-label">Программа тренировки</h3>
+        <div className="training-table">
+          <div className="step-action-hdr tt-action-cell">Движение</div>
+          <div className="step-value-hdr tt-value-cell">Повторов</div>
+          {props.training.template.steps.map((step) => (
+            <TrainingStep step={step} key={step.order} />
+          ))}
+        </div>
       </div>
       <div className="training-commands">
         {/* <button type="button">Add training</button> */}
         {/* <button type="button">Edit training</button> */}
-        <button type="button">Start now</button>
+        <button className="start-button" type="button">Начать сейчас</button>
+        <button className="cancel-button" type="button">Отменить</button>
       </div>
     </div>
   );
